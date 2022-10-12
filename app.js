@@ -4,7 +4,7 @@ const ejs = require("ejs");
 const app = express();
 const date = require(__dirname + "/date.js");
 
-let items = ["Buy food", "Cook food", "Eat food"];
+let items = [];
 let workList = [];
 
 app.use(bodyParser.urlencoded({ extended: true }));
